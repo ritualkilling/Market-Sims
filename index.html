@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AI Chatbot</title>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This site is hosted on GitHub Pages.</p>
+    <h1>Chat with AI</h1>
+    <input type="text" id="userInput" placeholder="Type a message...">
+    <button onclick="askGPT()">Send</button>
+    <p id="response"></p>
 </body>
 </html>
